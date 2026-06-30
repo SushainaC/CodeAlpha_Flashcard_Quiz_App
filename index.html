@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Flashcard Quiz App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1><i class="fa-solid fa-book-open"></i> Smart Flashcard Quiz</h1>
+
+    <div class="header-right">
+
+        <button id="themeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </div>
+
+</header>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+    <div class="card">
+        <h2 id="totalCards">0</h2>
+        <p>Total Cards</p>
+    </div>
+
+    <div class="card">
+        <h2 id="studiedCards">0</h2>
+        <p>Studied</p>
+    </div>
+
+    <div class="card">
+        <h2 id="remainingCards">0</h2>
+        <p>Remaining</p>
+    </div>
+
+</section>
+
+<!-- Progress -->
+
+<section class="progress-section">
+
+    <div class="progress-bar">
+
+        <div class="progress-fill" id="progressFill">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Search -->
+
+<section class="search">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Flashcards...">
+
+</section>
+
+<!-- Flashcard -->
+
+<section class="flashcard-area">
+
+<div class="flashcard" id="flashcard">
+
+<div class="front">
+
+<h2 id="question">
+Question appears here
+</h2>
+
+<button id="showAnswer">
+Show Answer
+</button>
+
+</div>
+
+<div class="back">
+
+<h2>Answer</h2>
+
+<p id="answer">
+Answer appears here
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Navigation -->
+
+<section class="navigation">
+
+<button id="prevBtn">
+<i class="fa-solid fa-arrow-left"></i>
+Previous
+</button>
+
+<button id="shuffleBtn">
+<i class="fa-solid fa-shuffle"></i>
+Shuffle
+</button>
+
+<button id="nextBtn">
+Next
+<i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</section>
+
+<!-- Quiz Controls -->
+
+<section class="quiz">
+
+<input
+type="text"
+id="userAnswer"
+placeholder="Type your answer">
+
+<button id="checkAnswer">
+
+Check Answer
+
+</button>
+
+<button id="startQuiz">
+
+Start Quiz
+
+</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<!-- Timer -->
+
+<section class="timer">
+
+<h2>
+
+Time Left :
+<span id="timer">
+
+30
+
+</span>
+
+sec
+
+</h2>
+
+</section>
+
+<!-- Add/Edit Form -->
+
+<section class="form-section">
+
+<h2>Add / Edit Flashcard</h2>
+
+<input
+type="text"
+id="questionInput"
+placeholder="Enter Question">
+
+<textarea
+id="answerInput"
+placeholder="Enter Answer">
+</textarea>
+
+<div class="buttons">
+
+<button id="addBtn">
+
+<i class="fa-solid fa-plus"></i>
+
+Add
+
+</button>
+
+<button id="updateBtn">
+
+<i class="fa-solid fa-pen"></i>
+
+Update
+
+</button>
+
+<button id="deleteBtn">
+
+<i class="fa-solid fa-trash"></i>
+
+Delete
+
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+Designed using HTML • CSS • JavaScript
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
