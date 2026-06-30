@@ -10,7 +10,7 @@
 
 body{
     font-family:'Poppins',sans-serif;
-    background:linear-gradient(135deg,#667eea,#764ba2);
+    background:linear-gradient(135deg,#1d2546,#382a45);
     min-height:100vh;
     color:#222;
     transition:.4s;
@@ -69,7 +69,7 @@ header button:hover{
 }
 
 .card{
-    background:rgba(255,255,255,.25);
+    background:rgba(42, 31, 31, 0.25);
     backdrop-filter:blur(15px);
     border-radius:20px;
     padding:25px;
@@ -107,7 +107,7 @@ header button:hover{
 .progress-fill{
     width:0%;
     height:100%;
-    background:linear-gradient(90deg,#00c853,#64dd17);
+    background:linear-gradient(90deg,#1c2a21,#212c1a);
     transition:.5s;
 }
 
@@ -178,7 +178,7 @@ header button:hover{
 .front button{
     padding:12px 30px;
     border:none;
-    background:#3f51b5;
+    background:#1d2031;
     color:white;
     border-radius:10px;
     cursor:pointer;
@@ -186,7 +186,7 @@ header button:hover{
 }
 
 .front button:hover{
-    background:#283593;
+    background:#141621;
 }
 
 .back{
